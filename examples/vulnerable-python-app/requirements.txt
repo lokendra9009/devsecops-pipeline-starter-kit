@@ -1,0 +1,10 @@
+#This app intentionally uses outdated dependencies for demonstration purposes.
+#
+#Do not use it in production.
+
+flask==1.0
+requests==2.19.1
+pyyaml==5.1
+
+
+
