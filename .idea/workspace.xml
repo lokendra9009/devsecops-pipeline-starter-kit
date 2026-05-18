@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4a5867-9865-4d0e-a596-15313eacaa15" name="Changes" comment="Add initial project structure with DevSecOps templates and example app">
-      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/security-exception.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/vulnerability-triage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/devsecops-pipeline-starter-kit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/pipeline-flow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vulnerable-python-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vulnerable-python-app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/vulnerable-python-app/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +26,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lokendra9009"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lokendra9009/devsecops-pipeline-starter-kit.git",
+    "accountId": "65ba089a-4d79-4a01-a14f-2467c9f24d32"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9440225117939995" />
-      <entry key="MS500" value="3.9043413741497894" />
-      <entry key="S2" value="5.362687287804181" />
-      <entry key="S5" value="6.525703794593853" />
-      <entry key="S10" value="7.163169730081589" />
-      <entry key="S30" value="7.736118487014986" />
-      <entry key="S60" value="8.04899468038671" />
-      <entry key="M2" value="8.781719612164196" />
-      <entry key="M5" value="23.52528570284982" />
-      <entry key="M10" value="61.60355073940446" />
-      <entry key="M15" value="89.96192256934448" />
-      <entry key="M30" value="133.86455252656265" />
-      <entry key="H1" value="164.19457391155538" />
-      <entry key="H2" value="182.05591073494423" />
-      <entry key="H4" value="191.75288977796254" />
-      <entry key="D1" value="200.25262662217955" />
-      <entry key="W1" value="201.74938968340348" />
+      <entry key="MS100" value="1.4834686311618754" />
+      <entry key="MS500" value="3.308978218608341" />
+      <entry key="S2" value="9.784519339137304" />
+      <entry key="S5" value="19.004511543251386" />
+      <entry key="S10" value="25.342866817517173" />
+      <entry key="S30" value="31.3077165400942" />
+      <entry key="S60" value="33.08835544140308" />
+      <entry key="M2" value="34.15718700061634" />
+      <entry key="M5" value="38.98698219350869" />
+      <entry key="M10" value="61.38647269496307" />
+      <entry key="M15" value="86.24129429180282" />
+      <entry key="M30" value="136.093000794317" />
+      <entry key="H1" value="177.70126784485208" />
+      <entry key="H2" value="204.72557581813516" />
+      <entry key="H4" value="220.14625390143132" />
+      <entry key="D1" value="234.08595177042946" />
+      <entry key="W1" value="236.58105779632837" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -82,23 +82,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8886309316430412" />
-      <entry key="MS500" value="3.8828161943255606" />
-      <entry key="S2" value="5.355347782722687" />
-      <entry key="S5" value="6.522165253157109" />
-      <entry key="S10" value="7.161235960089478" />
-      <entry key="S30" value="7.735379052824945" />
-      <entry key="S60" value="8.048520932505175" />
-      <entry key="M2" value="8.781345665580558" />
-      <entry key="M5" value="23.52424480725113" />
-      <entry key="M10" value="61.601930578739015" />
-      <entry key="M15" value="89.96030709039232" />
-      <entry key="M30" value="133.86333523232096" />
-      <entry key="H1" value="164.1938250153624" />
-      <entry key="H2" value="182.05549517420644" />
-      <entry key="H4" value="191.75267086268568" />
-      <entry key="D1" value="200.25258851187817" />
-      <entry key="W1" value="201.74938419824034" />
+      <entry key="MS100" value="1.447670996819378" />
+      <entry key="MS500" value="3.2910338184833856" />
+      <entry key="S2" value="9.771304677880375" />
+      <entry key="S5" value="18.994247141067973" />
+      <entry key="S10" value="25.336010757780695" />
+      <entry key="S30" value="31.304888177460924" />
+      <entry key="S60" value="33.08686001154208" />
+      <entry key="M2" value="34.15641230664943" />
+      <entry key="M5" value="38.986475415637976" />
+      <entry key="M10" value="61.38561617073429" />
+      <entry key="M15" value="86.24026665283071" />
+      <entry key="M30" value="136.09202825103895" />
+      <entry key="H1" value="177.70059047655153" />
+      <entry key="H2" value="204.72517518212075" />
+      <entry key="H4" value="220.14603592625053" />
+      <entry key="D1" value="234.08591278285317" />
+      <entry key="W1" value="236.58105215872493" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -120,7 +120,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -146,12 +146,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779006541774</updated>
-      <workItem from="1779006542793" duration="1997000" />
+      <workItem from="1779006542793" duration="7061000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial project structure with DevSecOps templates and example app">
+      <option name="closed" value="true" />
+      <created>1779008602369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779008602369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial project structure with DevSecOps templates and example app" />

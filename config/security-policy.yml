@@ -1,0 +1,28 @@
+project:
+  name: devsecops-pipeline-starter-kit
+  environment: demo
+  internet_facing: true
+
+build_rules:
+  fail_on_secrets: true
+  fail_on_critical_vulnerabilities: true
+  fail_on_high_if_internet_facing: true
+  max_high_vulnerabilities_allowed: 3
+
+scan_modes:
+  sast: warn
+  dependency_scan: enforce
+  container_scan: enforce
+  secret_scan: enforce
+
+exception_policy:
+  require_owner: true
+  require_business_justification: true
+  require_expiry_date: true
+  max_exception_days: 90
+
+sla:
+  critical: 7
+  high: 15
+  medium: 30
+  low: 90
