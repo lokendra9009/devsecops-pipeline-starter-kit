@@ -1,10 +1,11 @@
-.PHONY: help scan scan-secrets report demo clean
+.PHONY: help scan scan-secrets scan-deps report demo clean
 
 RAW_REPORT_DIR=reports/raw
 
 help:
 	@echo "Available commands:"
 	@echo "  make scan-secrets  Run Gitleaks secret scan"
+	@echo "  make scan-deps     Run Trivy filesystem/dependency scan"
 	@echo "  make scan          Run all configured security scans"
 	@echo "  make report        Generate consolidated security report"
 	@echo "  make demo          Run scans and generate report"
@@ -19,7 +20,15 @@ scan-secrets:
 		--redact
 	@echo "Gitleaks report saved to $(RAW_REPORT_DIR)/gitleaks.json"
 
-scan: scan-secrets
+scan-deps:
+	@echo "Running Trivy filesystem/dependency scan..."
+	@mkdir -p $(RAW_REPORT_DIR)
+	trivy fs . \
+		--format json \
+		--output $(RAW_REPORT_DIR)/trivy-fs.json
+	@echo "Trivy report saved to $(RAW_REPORT_DIR)/trivy-fs.json"
+
+scan: scan-secrets scan-deps
 	@echo "Security scans completed."
 
 report:
