@@ -7,6 +7,21 @@ They dump scanner output on developers without context.
 This project demonstrates a developer-friendly security pipeline that runs common security checks, summarizes findings, 
 applies policy-based gates, and generates a clean report that engineering teams can actually use.
 
+## Prerequisites
+
+### Gitleaks
+
+Install Gitleaks before running secret scans.
+
+macOS:
+
+```bash
+brew install gitleaks
+```
+
+
+
+
 ## What this project demonstrates
 
 - Secret scanning
