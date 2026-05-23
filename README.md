@@ -19,6 +19,14 @@ macOS:
 brew install gitleaks
 ```
 
+### Trivy
+
+Install Trivy before running dependency/filesystem scans.
+
+macOS:
+
+```bash
+brew install trivy
 
 
 
